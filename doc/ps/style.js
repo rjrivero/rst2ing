@@ -9,7 +9,7 @@ pageSetup:
 
   firstTemplate: coverPage
   size: "A4"
-  margin-left: "25mm"
+  margin-left: "2cm"
   margin-right: "2cm"
   margin-bottom: "5mm"
   margin-top: "2cm"
@@ -19,7 +19,11 @@ pageTemplates:
 
   coverPage: 
     frames: [
-      ["0cm", "0cm", "100%", "100%"]
+      ["-10mm", "0cm", "5cm", "27cm"],
+      ["8cm", "24cm", "10cm", "3cm"],
+      ["6cm", "13cm", "11cm", "9cm"],
+      ["6cm", "5cm", "11cm", "7cm"],
+      ["6cm", "0cm", "11cm", "3cm"]
     ]
     showHeader: false
     showFooter: false

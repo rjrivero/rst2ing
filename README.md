@@ -15,7 +15,7 @@ Once the prerequisites are installed, run:
 
 To include the default cover into your document, begin your rst file with:
 
-    .. include:: doc/<document_type>/cover.rst
+    .. include:: doc/<document_type>/<language>.rst
     
     .. |Title|	replace:: <Title>
     .. |ref|    replace:: <Document_reference>
@@ -23,3 +23,5 @@ To include the default cover into your document, begin your rst file with:
     .. |date| 	replace:: <Date>
     .. |doc|    replace:: <Document_code_(short_snippet)>
     .. |dept|   replace:: <Departament name>
+
+*language* is the template language to use; **en** for English, **es** for Spanish.
