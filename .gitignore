@@ -1,3 +1,9 @@
+# rst2pdf files, temps and outputs
+*.rst
+*.tmp
+*.pdf
+
+# Python compiled
 *.py[cod]
 
 # C extensions
